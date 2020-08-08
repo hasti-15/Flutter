@@ -3,7 +3,7 @@ void main() {
  
   var largest_value = values[0];
 
-  for (var i = 1; i < values.length; i++) {
+  for (var i = 0; i < values.length; i++) {
     if (values[i] > largest_value) {
       largest_value = values[i];
     }
